@@ -1,11 +1,12 @@
 import time
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 def startBot(username, password, url):
-    path = "C:\\Users\\nicol\\OneDrive\\Documentos\\Python\\Projetos\\AutoLogin\\chromedriver-win64\\chromedriver.exe"
+    path = path = os.path.join(os.getcwd(), "chromedriver-win64", "chromedriver.exe")
     service = Service(path)
     chrome_options = Options()
     chrome_options.add_argument("--start-maximized")
@@ -24,6 +25,7 @@ def startBot(username, password, url):
 #Enter your login credentials
 username = "nicolasgabrielmartins"
 password = "password"
+
 url = "https://github.com/login"
     
 startBot(username, password, url)

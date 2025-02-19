@@ -15,12 +15,17 @@ Python 🐍
 Selenium WebDriver 🌐
 ChromeDriver 🖥
 
-⚠️ Importante
-🔹 Certifique-se de ter o ChromeDriver instalado e atualizado para evitar erros de compatibilidade.
+🛠 Pré-requisitos
+Antes de executar o código, você precisa:
+
+Instalar o Selenium:
+pip install selenium
+Baixar o ChromeDriver correspondente à versão do seu navegador aqui.
+Colocar o chromedriver.exe na mesma pasta do script ou definir o caminho correto no código
         
 
 🔗 Conecte-se comigo
-Confira este e outros projetos no meu GitHub: nicolasgabrielmartins 🚀
+Confira este e outros projetos no meu GitHub: nicolasgabrielmartins
 Me acompanhe também pelo LinkedIn: https://www.linkedin.com/in/nicolas-gabriel-martins/
 
 Se tiver dúvidas ou sugestões, fique à vontade para contribuir!
